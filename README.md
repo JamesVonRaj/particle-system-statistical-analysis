@@ -1,4 +1,4 @@
-# Particle Systems Statistical Analysis
+# Particle System Statistical Analysis
 A set of scripts used to analyze nearest neighbor distance data for swelled particle systems. 
 
 ## Overview
