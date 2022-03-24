@@ -2,7 +2,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-#%%
 
 #plots for area fraction = [0.7]
 
@@ -73,6 +72,7 @@ plt.figure(dpi=400,figsize=(8,8))
 plt.plot(np.arange(0,1,0.01),first_derivative_memory,c='#d7191c',linewidth=2)
 plt.xlabel('area fraction',fontsize=18)
 plt.ylabel("f'",fontsize=18)
+
 #%%
 
 #plots for area fraction = [0.4,0.7]
