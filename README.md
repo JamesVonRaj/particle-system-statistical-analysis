@@ -1,1 +1,1 @@
-# statistical-analysis-of-particle-systems
+# particle-system-statistical-analysis
