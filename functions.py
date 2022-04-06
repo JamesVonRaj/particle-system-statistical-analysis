@@ -231,3 +231,13 @@ def two_memory_cluster_data(cluster,B):
             particle_number_2.append(len(single_cluster_array[:,0]))
     
     return (particle_number_1,fwhm_1,pkh_loc_array_1,particle_number_2,fwhm_2,pkh_loc_array_2)
+
+
+def cluster_count_hist(counts,bins):
+    fake = np.array([])
+    for i in range(len(counts)):
+        a, b = bins[i], bins[i+1]
+        sample = a + (b-a)*np.random.rand(counts[i])
+        fake = np.append(fake, sample)
+    
+    return (fake, bins)
